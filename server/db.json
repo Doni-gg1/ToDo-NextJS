@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Learn Next",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Learn Redux",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Learn Redux ToolKit",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Learn Redux ToolKit Slice",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Learn Redux ToolKit Slice",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "Learn Redux ToolKit Slice",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "title": "Learn Redux ToolKit Slice",
+      "completed": false
+    }
+
+  ]
+}
