@@ -7,6 +7,10 @@ const counterSlice = createSlice({
     },
 
     reducers: {
+        addTask(state, payload) {
+            // console.log(payload.payload.data)
+            state.data.push(payload.payload.data)
+        },
         setData(state, payload) {
             state.data = payload.payload
         }
@@ -14,4 +18,4 @@ const counterSlice = createSlice({
 })
 
 export default counterSlice.reducer
-export const  {setData} = counterSlice.actions
+export const  {setData, addTask} = counterSlice.actions

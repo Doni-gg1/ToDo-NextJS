@@ -1,40 +1,24 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "Learn JavaScript with openWeatherMap",
-      "completed": false
+      "title": "complete todo",
+      "completed": false,
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "Learn Redux",
-      "completed": false
+      "title": "Doni",
+      "completed": false,
+      "id": 2
     },
     {
-      "id": 3,
-      "title": "Learn Redux ToolKit",
-      "completed": false
+      "title": "Doni",
+      "completed": false,
+      "id": 3
     },
     {
-      "id": 4,
-      "title": "Learn Redux ToolKit Slice",
-      "completed": false
-    },
-    {
-      "id": 5,
-      "title": "Learn Redux ToolKit Slice",
-      "completed": false
-    },
-    {
-      "id": 6,
-      "title": "Learn Redux ToolKit Slice",
-      "completed": false
-    },
-    {
-      "id": 7,
-      "title": "Learn Redux ToolKit Slice",
-      "completed": false
+      "title": "Doni",
+      "completed": false,
+      "id": 4
     }
-
   ]
 }
