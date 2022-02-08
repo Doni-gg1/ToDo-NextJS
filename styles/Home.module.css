@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .input input{
   width: 100%;
@@ -31,3 +32,57 @@
   padding: 10px;
   border-bottom: 1px solid black;
 }
+.btnBlock {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  right: 5%;
+  bottom: 10%;
+  display: flex;
+  background: rgba(200, 255, 255, 0);
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  cursor: pointer;
+}
+.btnBlock:hover svg {
+  transition: 1s;
+  transform: rotate(180deg);
+}
+.btnBlock:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.modalWrapper {
+  transition: 1s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(96, 93, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBlock {
+  width: 30%;
+  height: 30%;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.modalBlock input {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+.notActive {
+  transition: 1s;
+  display: none;
+}
+
