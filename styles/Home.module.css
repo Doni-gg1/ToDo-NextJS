@@ -27,7 +27,7 @@
   width: 500px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
+  padding: 50px;
   color: wheat;
   overflow: auto;
 }
@@ -36,7 +36,7 @@
   display: none;
 }
 
-.todoBlock h2 {
+.task {
   padding: 10px;
   border-bottom: 1px solid black;
 }
@@ -51,7 +51,7 @@
   width: 17px;
   position: absolute;
   top: -80%;
-  left: -2%;
+  left: -3%;
 }
 
 .btnBlock {
@@ -98,7 +98,7 @@
 .modalBlock input {
   width: 100%;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0 20px;
   font-size: 15px;
   border: 1px solid black;
@@ -144,8 +144,27 @@
 .task:hover {
   transition: 0.5s;
   transform: scale(0.97);
-  /* border: 1px solid black; */
-  border-radius: 10px;
+}
 
+
+
+.editIcon, .deletedIcon {
+  stroke: none;
+  fill: none;
+}
+
+.task:hover .editIcon, .task:hover .deletedIcon {
+  stroke: black;
+  fill: black;
+}
+
+.task div h2 {
+  width: 100%;
+}
+
+.task div {
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 

@@ -1,24 +1,9 @@
 {
   "tasks": [
     {
-      "title": "complete todo",
+      "title": "Doni",
       "completed": false,
       "id": 1
-    },
-    {
-      "title": "Doni",
-      "completed": false,
-      "id": 2
-    },
-    {
-      "title": "Doni",
-      "completed": false,
-      "id": 3
-    },
-    {
-      "title": "Doni",
-      "completed": false,
-      "id": 4
     }
   ]
 }
