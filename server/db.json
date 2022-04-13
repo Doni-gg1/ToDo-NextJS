@@ -1,9 +1,19 @@
 {
   "tasks": [
     {
-      "title": "Doni",
+      "title": "Learn TypeScript",
       "completed": false,
-      "id": 1
+      "id": 2
+    },
+    {
+      "title": "complete to do",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "learn react",
+      "completed": false,
+      "id": 4
     }
   ]
 }

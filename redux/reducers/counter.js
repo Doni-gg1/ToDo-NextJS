@@ -4,7 +4,8 @@ const counterSlice = createSlice({
     name: "data",
     initialState: {
         data: [],
-        taskForEdit: {}
+        taskForEdit: {},
+        id: 0
     },
 
     reducers: {
@@ -19,12 +20,16 @@ const counterSlice = createSlice({
             state.data = payload.payload
             // console.log(payload.data)
         },
-        getTaskForEdit(state, {payload}) {
+        getTaskForEdit(state, action){
+            state.taskForEdit = action.payload
+            // console.log(action)
+        },
+        getIDForEdit(state, payload) {
+            state.id =   payload.payload
             // console.log(payload)
-            state.taskForEdit = payload
         }
     }
 })
 
 export default counterSlice.reducer
-export const  {editStatus, setData, addTask, getTaskForEdit} = counterSlice.actions
+export const  {editStatus, setData, addTask, getTaskForEdit, getIDForEdit} = counterSlice.actions

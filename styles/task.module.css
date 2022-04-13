@@ -26,7 +26,48 @@
     max-height: 500px;
     min-height: 200px;
     width: 500px;
+    border-radius: 8px;
     padding: 50px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
 }
+
+.modalBtns {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btnModal {
+    padding: 5px 20px;
+    margin: 5px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.btnModal:hover {
+    /* opacity: 0.7; */
+    transition: 0.5s;
+    /* background: linear-gradient(to right, #aa2555, #ea473e); */
+    background: #ca3649;
+    border-radius: 2px;
+    outline: none;
+    color: #fff;
+}
+
+.wrapperMain {
+    position: relative;
+}
+
+.title{
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    filter: blinds(100px);
+    /*z-index: 10;*/
+}
+

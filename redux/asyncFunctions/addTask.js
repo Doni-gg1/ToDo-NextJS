@@ -42,3 +42,10 @@ export const asyncGetTaskForEdit = (payload) => {
         // console.log(response.data)
     }
 }
+
+export const asyncEditTask = (payload) => {
+    return async dispatch => {
+        // console.log(payload)
+        await axios.patch(`http://localhost:3001/tasks/${payload.id}`, payload)
+    }
+}
